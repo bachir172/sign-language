@@ -36,6 +36,14 @@ dependencies:
   lottie: ^1.2.2
   animated_splash_screen: ^1.2.0
   pytorch_lite: ^4.2.5
+  flutter_launcher_icons: ^0.13.1
+flutter_icons :
+  android: true
+  ios: true
+  image_path: "assets/images/logo3.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/logo3.png"
+
 
 
 
@@ -72,6 +80,7 @@ flutter:
     - assets/
     - assets/images/
     - assets/lottie/
+    - assets/arabic_alphabet/
 
 
   #   - images/a_dot_ham.jpeg
