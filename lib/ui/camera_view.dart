@@ -9,7 +9,6 @@ import 'package:pytorch_lite/pytorch_lite.dart';
 import 'camera_view_singleton.dart';
 
 /// [CameraView] sends each frame for inference
-/// 
 class CameraView extends StatefulWidget {
   /// Callback to pass results after inference to [HomeView]
   final Function(List<ResultObjectDetection> recognitions)
