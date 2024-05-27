@@ -25,6 +25,7 @@ class CameraView extends StatefulWidget {
   _CameraViewState createState() => _CameraViewState();
 }
 
+
 class _CameraViewState extends State<CameraView> with WidgetsBindingObserver {
   /// List of available cameras
   late List<CameraDescription> cameras;
